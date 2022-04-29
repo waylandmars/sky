@@ -169,9 +169,6 @@ class MyFiles extends React.Component {
     })
   }
 
-
-
-
   render() {
     return (
        <>
