@@ -157,7 +157,7 @@ const Actions = (props) => {
             role="button"
           >
             {icons.Delete}
-            Отменить доступ
+            Отменить доступ к файлу
           </a>
         </li>
         <Modal className="fileUploader" show={show} onClick={(event)=>{event.stopPropagation();}}  backdrop="static" keyboard={false}>  
@@ -172,7 +172,7 @@ const Actions = (props) => {
             Отмена
           </Button>
           <Button variant="primary" onClick={handleClose}>
-            Отменить доступ
+            Отменить доступ к файлу
           </Button>
         </Modal.Footer>
       </Modal>
