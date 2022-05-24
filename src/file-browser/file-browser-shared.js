@@ -168,7 +168,7 @@ const Actions = (props) => {
         <p className="confirmationActionTitle">Вы действительно хотите отменить доступ к файлу/папке?</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary_" onClick={handleClose}>
             Отмена
           </Button>
           <Button variant="primary" onClick={handleClose}>
